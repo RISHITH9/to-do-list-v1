@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
     /* Use a relative path if background.jpg is in the same folder as index.html and styles2.css */
-    background-image: url('/background.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
