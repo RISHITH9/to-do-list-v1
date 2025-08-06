@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-image: url('Background1.jpg'); /* Relative path: image in same folder */
+    background-image: url('https://github.com/RISHITH9/to-do-list-v1/blob/main/Background1.jpg'); /* Relative path: image in same folder */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
