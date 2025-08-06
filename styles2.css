@@ -15,6 +15,9 @@ input, button {
     border: none;
     border-radius: 5px;
     font-size: 14px;
+    margin-right: 0;
+    text-align: right;
+    display: block;
 }
 
 input {
@@ -48,7 +51,9 @@ li:hover {
 }
 
 #submitBtn {
-    margin-left: 20%;
+    margin-left: 0;
+    margin-right: 0;
+    align-self: flex-end;
 }
 
 /* COMMON STYLES for s1 and s2 */
@@ -60,6 +65,7 @@ li:hover {
     margin: 10px 0;
     border-radius: 10px;
     text-align: right;
+    margin-right: 0;
     width: fit-content;
     max-width: 90%;
     line-height: 1.5;
@@ -77,4 +83,13 @@ li:hover {
 /* Additional hover glow for .s2 */
 .s2:hover {
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
